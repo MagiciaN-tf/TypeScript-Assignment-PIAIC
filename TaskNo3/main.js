@@ -1,4 +1,9 @@
-let quote =
-  "Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.";
-let person = "Arnold Schwarzenegger";
-console.log('"' + person + '"' + " once said, " + '"' + quote + '"');
+const name = "Talha Farooqui";
+console.log("LowerCase:", name.toLowerCase());
+console.log("UpperCase:", name.toUpperCase());
+console.log("TitleCase:", toTitleCase(name));
+function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+  }

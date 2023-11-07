@@ -1,6 +1,4 @@
-let name = "\t \n Talha \n \t";
-console.log("before striping the white spaces:");
-console.log(name);
-let strippedName = name.trim(); //The trim() function is used to remove the whitespace characters from both ends of the name string.
-console.log("after striping the white spaces:");
-console.log(strippedName);
+let quote =
+  "Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.";
+let person = "Arnold Schwarzenegger";
+console.log('"' + person + '"' + " once said, " + '"' + quote + '"');
